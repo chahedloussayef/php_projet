@@ -16,8 +16,10 @@
     </form>
     <ul>
         <?php foreach ($tasks as $task): ?>
-            <li class="<?= $task['completed'] ? 'task-completed' : '' ?>">
-                <?= htmlspecialchars($task['title']) ?>
+            <li>
+                <span class="<?= $task['completed'] ? 'task-completed' : '' ?>">
+                    <?= htmlspecialchars($task['title']) ?>
+                </span>
                 <a href="/tasks/complete?id=<?= $task['id'] ?>">Terminer</a>
                 <a href="/tasks/delete?id=<?= $task['id'] ?>">Supprimer</a>
             </li>
