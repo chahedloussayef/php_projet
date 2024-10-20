@@ -9,6 +9,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form {
@@ -26,7 +27,7 @@ input, textarea {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ff69b4;
     color: white;
     border: none;
     cursor: pointer;
@@ -45,11 +46,11 @@ li {
 }
 
 a {
-    color: #007bff;
+    color: #ff69b4;
     text-decoration: none;
 }
 
 .task-completed {
-    color: green; 
+    color: #ff69b4;
     text-decoration: line-through; 
 }
